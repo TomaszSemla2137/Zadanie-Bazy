@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: red;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+main {
+    background-color: green;
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    float: left;
+}
+aside {
+    height: 400px;
+    float: left;
+    background-color: wheat;
+    width: 30%;
+}
+footer {
+    background-color: aquamarine;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.tabela {
+    margin: 30px auto;
+    width: 50%;
+    align-content: start;
+    font-size: 200%;
+}
+li {
+    font-size: 180%;
+    margin: 30px;
+}
+table tr {
+    border: 1px solid grey;
+}
+table th {
+    border: 2px solid grey;
+}
+.dane {
+    font-size: 80%;
+    background-color: paleturquoise;
+    width: 170px;
+    height: 150px;
+    color: tomato;
+    margin: 5px;
+    float: left;
+}
