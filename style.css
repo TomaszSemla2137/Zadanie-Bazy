@@ -46,11 +46,14 @@ table th {
     border: 2px solid grey;
 }
 .dane {
-    font-size: 80%;
+    font-size: 120%;
     background-color: paleturquoise;
     width: 170px;
     height: 150px;
-    color: tomato;
+    color: black;
     margin: 5px;
     float: left;
+}
+h2{
+    color: black;
 }

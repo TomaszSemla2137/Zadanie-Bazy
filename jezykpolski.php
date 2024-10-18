@@ -12,18 +12,20 @@
     </header>
     <main>
         <h2>Polski</h2>
-        <div class="tabela">
+        <div class="bloki">
+            <h2>
       <?php
        $conn = mysqli_connect('localhost', 'root', '', 'Szkoła');
-       $sql = "select * from uczniowie";
+       $sql = "select * from polski";
        $result = mysqli_query($conn, $sql);
        while($row = mysqli_fetch_assoc($result)){
-        echo "<div class='dane'>ID: " . $row['id'] . "<br>
-        Imię:" . $row['Imie'] . "<br>
+        echo "<div class='dane'>ID: " . $row['ID'] . "<br>
+        Imię:" . $row['Imię'] . "<br>
         nazwisko: ". $row ['Nazwisko'] . "<br>
         Ocena:". $row['Ocena']."</div>";
     }
     ?>
+    </h2>
     </div>
     
         
@@ -34,6 +36,7 @@
     <li>Polski</a></li>
     <li><a href="index.php">Matematyka</a></li>
     <li>J. Angielski</li>
+    <li><a href="dodajocene.php">Dodaj oceny</a></li>
 </ul>
     </aside>
 

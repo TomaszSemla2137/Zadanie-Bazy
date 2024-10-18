@@ -15,7 +15,7 @@
         <div class="tabela">
       <?php
        $conn = mysqli_connect('localhost', 'root', '', 'Szkoła');
-       $sql = "select * from uczniowie";
+       $sql = "select * from matematyka";
        $result = mysqli_query($conn, $sql);
        echo "<table border=1> <tr><th>ID</th><th>Imię</th><th>Nazwisko</th><th>Ocena</th></tr>";
        while($row = mysqli_fetch_assoc($result)){
@@ -33,6 +33,7 @@
     <li><a href="jezykpolski.php">Polski</a></li>
     <li>Matematyka</li>
     <li>J. Angielski</li>
+    <li><a href="dodajocene.php">Dodaj oceny</a></li>
 </ul>
     </aside>
 
